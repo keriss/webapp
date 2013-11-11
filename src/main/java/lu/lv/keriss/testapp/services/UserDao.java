@@ -2,17 +2,13 @@ package lu.lv.keriss.testapp.services;
 
 import lu.lv.keriss.testapp.model.User;
 import org.springframework.stereotype.Repository;
-import javax.annotation.Resource;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.TreeMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * Created with IntelliJ IDEA.
- * User: KERISS
- * Date: 04.11.13
- * Time: 6:36
- * To change this template use File | Settings | File Templates.
- */
 @Repository
 public class UserDao implements IUserDao {
     private TreeMap<Long, User> users = new TreeMap<Long, User>();
