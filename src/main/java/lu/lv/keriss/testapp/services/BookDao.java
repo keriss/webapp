@@ -32,7 +32,7 @@ public class BookDao implements IBookDao {
         if(usersBooks == null){
             usersBooks = new ArrayList<Long>();
         }
-        Map<Long,Book> freeBooks= new HashMap<Long,Book>();
+        TreeMap<Long,Book> freeBooks= new TreeMap<Long,Book>();
         Set<Long> keys = books.keySet();
         Iterator<Long> iKey = keys.iterator();
         while(iKey.hasNext()){
