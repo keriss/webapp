@@ -9,7 +9,6 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 public class User {
-    @Id
     private Long id;
     @NotEmpty
     @Size(min = 1, max = 20)
