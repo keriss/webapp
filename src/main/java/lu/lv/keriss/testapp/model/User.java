@@ -1,7 +1,6 @@
 package lu.lv.keriss.testapp.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
-import org.springframework.data.annotation.Id;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
